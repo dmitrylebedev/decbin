@@ -1,6 +1,6 @@
 {
 	"name": "decbin",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "decbin — Decimal to binary. Returns a string containing a binary representation of the given number argument.",
 	"license": "MIT",
 	"repository": "dmitrylebedev/decbin",
@@ -20,9 +20,9 @@
 	],
 	"keywords": [
 		"number",
-    	"math",
-    	"decbin",
-    	"decimal-to-binary"
+		"math",
+		"decbin",
+		"decimal-to-binary"
 	],
 	"dependencies": {
 		"isnumber": "^1.0.0"
