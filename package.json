@@ -1,0 +1,34 @@
+{
+	"name": "decbin",
+	"version": "0.0.0",
+	"description": "decbin — Decimal to binary. Returns a string containing a binary representation of the given number argument.",
+	"license": "MIT",
+	"repository": "dmitrylebedev/decbin",
+	"author": {
+		"name": "Dmitry Lebedev",
+		"email": "dimitrylebedev@yandex.ru",
+		"url": "github.com/dmitrylebedev"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"number",
+    	"math",
+    	"decbin",
+    	"decimal-to-binary"
+	],
+	"dependencies": {
+		"isnumber": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
+}
